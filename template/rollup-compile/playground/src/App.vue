@@ -1,7 +1,5 @@
 <script setup lang="ts">
-defineOptions({
-  name:'playground'
-})
+defineOptions({ name: 'playground' })
 </script>
 
 <template>
