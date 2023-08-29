@@ -25,6 +25,11 @@ export const templateQuestion = {
       value: "m模板",
       description: "基于vite构建的vue3基础项目m版本",
     },
+    {
+      name: "rollup-compile",
+      value: "rollup编译库包",
+      description: "基于rollup构建的包版本",
+    },
   ],
 }
 
