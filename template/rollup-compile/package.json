@@ -1,0 +1,33 @@
+{
+  "name": "packages-name",
+  "version": "0.0.1",
+  "description": "packages-description",
+  "keywords": [
+    "packages-keywords"
+  ],
+  "homepage": "packages-homepage",
+  "exports": {
+    ".": {
+      "require": "./dist/packages-name.cjs",
+      "import": "./dist/packages-name.mjs"
+    }
+  },
+  "main": "dist/packages-name.cjs",
+  "module": "dist/packages-name.mjs",
+  "scripts": {
+    "build": "rollup --config ./rollup.config.mjs"
+  },
+  "author": "微光北下",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/node": "^20.3.3",
+    "glob": "^7.1.7",
+    "rollup": "^3.21.5",
+    "tslib": "^2.6.0"
+  }
+}
