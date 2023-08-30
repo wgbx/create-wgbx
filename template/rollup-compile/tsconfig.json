@@ -3,6 +3,7 @@
     "target": "es5",
     "module": "ES2015",
     "lib": ["ES2015", "DOM"],
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
@@ -11,6 +12,6 @@
     "noImplicitThis": false,
     "skipLibCheck": true
   },
-  "include": ["packages/"],
+  "include": ["packages/**/*.ts", "packages/**/*.js"],
   "references": []
 }

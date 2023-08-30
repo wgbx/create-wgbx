@@ -3,5 +3,5 @@ defineOptions({ name: 'playground' })
 </script>
 
 <template>
-  <div>playground </div>
+  <div>playground</div>
 </template>
