@@ -5,15 +5,16 @@
   "keywords": [
     "packages-keywords"
   ],
+  "types": "index.d.ts",
   "homepage": "packages-homepage",
+  "main": "dist/packages-name.cjs",
+  "module": "dist/packages-name.mjs",
   "exports": {
     ".": {
       "require": "./dist/packages-name.cjs",
       "import": "./dist/packages-name.mjs"
     }
   },
-  "main": "dist/packages-name.cjs",
-  "module": "dist/packages-name.mjs",
   "scripts": {
     "build": "rollup --config ./rollup.config.mjs"
   },

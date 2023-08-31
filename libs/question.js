@@ -30,6 +30,11 @@ export const templateQuestion = {
       value: "rollup编译库包",
       description: "基于rollup构建的包版本",
     },
+    {
+      name: "vite-compile",
+      value: "vite编译库包",
+      description: "基于vite构建的包版本",
+    },
   ],
 }
 

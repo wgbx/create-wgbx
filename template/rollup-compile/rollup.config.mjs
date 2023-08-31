@@ -6,6 +6,8 @@ import typescript from '@rollup/plugin-typescript'
 
 const name = 'packagesName'
 
+const globals = {}
+
 export default {
   input: './packages/index.ts',
   output: [
@@ -13,12 +15,14 @@ export default {
       name,
       file: `dist/${name}.cjs`,
       format: 'cjs',
+      globals,
       plugins: [terser()]
     },
     {
       name,
       file: `dist/${name}.mjs`,
       format: 'es',
+      globals,
       plugins: [terser()]
     }
   ],
