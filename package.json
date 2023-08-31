@@ -1,6 +1,6 @@
 {
   "name": "create-wgbx",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "微光北下脚手架",
   "main": "index.js",
   "type": "module",
