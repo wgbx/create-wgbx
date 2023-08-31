@@ -5,8 +5,8 @@
   "keywords": [
     "packages-name"
   ],
-  "types": "index.d.ts",
   "type": "module",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],

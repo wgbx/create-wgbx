@@ -5,7 +5,7 @@
   "keywords": [
     "packages-keywords"
   ],
-  "types": "index.d.ts",
+  "typings": "dist/index.d.ts",
   "homepage": "packages-homepage",
   "main": "dist/packages-name.cjs",
   "module": "dist/packages-name.mjs",
